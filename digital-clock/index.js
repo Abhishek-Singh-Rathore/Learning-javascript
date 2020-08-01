@@ -27,9 +27,11 @@ function showDate()
 
     var curDa = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     var curMo = ['Jan', 'Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
-    var Da = curDa[dat.getDay ()];
-    var Mo = curMO[dat.getMonth()];
+  
+    var Da = curDa[Number(dat.getDay())];
+    console.log(Da);
+    var Mo = curMo[Number(dat.getMonth())];
+    console.log(Mo);
     var Datt = dat.getDate();
     var Ye = dat.getFullYear();
 
