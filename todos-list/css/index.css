@@ -1,0 +1,13 @@
+.style {
+  color: lime;
+  text-align: center;
+}
+
+.container {
+  background-color: black;
+}
+.container div {
+  background-color: red;
+}
+
+/*# sourceMappingURL=index.css.map */
