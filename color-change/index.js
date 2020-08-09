@@ -1,4 +1,4 @@
-let a,b,c,elem;
+let a,b,c,elem,bgclr;
 function fun() {
     a = Math.floor(Math.random() * 255);
     b = Math.floor(Math.random() * 255);
@@ -6,8 +6,9 @@ function fun() {
     console.log(a);
     console.log(b);
     console.log(c);
-    elem = document.querySelector(".container").style.backgroundColor = "AA0000";
-    console.log(elem);
+    bgclr = "rgb(" + a + "," + b + "," + c + ")";
+    document.querySelector(".container").style.backgroundColor = bgclr;
+
 }
 
 fun();
